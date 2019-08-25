@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+/*fonts*/
+@font-face{
+    src:url(../fonts/Raleway-Bold.ttf);
+    font-family:rab;
+}
+@font-face{
+    src:url(../fonts/Raleway-SemiBold.ttf);
+    font-family:ras;
+}
+@font-face{
+    src:url(../fonts/Raleway-Regular.ttf);
+    font-family:rr;
+}
+@font-face{
+    src:url(../fonts/Raleway-Light.ttf);
+    font-family:rl;
+}
+@font-face{
+    src:url(../fonts/OpenSans-Regular.ttf);
+    font-family:or;
+}
+@font-face{
+    src:url(../fonts/OpenSans-Bold.ttf);
+    font-family:ob;
+}
+@font-face{
+    src:url(../fonts/Cardo-Italic.ttf);
+    font-family:cardo;
+}
+
+/*navbar css*/
+.navbar-light .navbar-nav .nav-link{
+    color:#ffffff;
+    font-weight: 700;
+    font-family: rab;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: all linear .2s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e84545;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar{
+    position: absolute;
+    top: 18px;
+    width: 100%;
+    z-index: 9999;
+}
+
+/*banner part*/
+#banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 256px;
+    padding-bottom: 156px;
+}
+#banner:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 46, 72, 0.8);
+}
+.banner-content{
+    position: relative;
+    z-index: 999;
+}
+.banner-content h2{
+    font-family: ob;
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+}
+
+.banner-content p{
+    font-family: rr;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 77px;
+    line-height: 33px;
+}
+.banner-content a{
+    font-family: ras;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    padding: 18px 54px;
+    background: #e84545;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}
+/*service part*/
+#service-part{
+    padding-top: 120px;
+    padding-bottom: 124px;
+}
+.service-item h3{
+    font-family: rab;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2D3033;
+    padding-top: 34px;
+    text-transform: uppercase;
+}
+.service-item p{
+    font-family: rr;
+    font-size: 14px;
+    color: #2D3033;
+    padding-top: 8px;
+    line-height: 21px;
+}
+/*portfolio part*/
+#portfolio{
+    padding-bottom: 102px;
+}
+
+.pt{
+    padding-top:60px; 
+}
+.port-item{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(217, 69, 69, 0.9);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all linear .2s;
+}
+.ov{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ov h3{
+    font-family: rab;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+.ov p{
+    font-family: rr;
+    font-size: 14px;
+    color: #fff;
+}
+
+.port-item:hover .overlay{
+    transform: scale(1);
+}
+
+/*team part*/
+.card{
+    border: none;
+}
+.card-body{
+    padding: 0;
+}
+.card-body h4{
+    font-family: rr;
+    font-size: 22px;
+    color: #2d3033;
+    padding-top: 30px;
+}
+.card-body h5{
+    font-family: rr;
+    font-size: 13px;
+    color: #e84545;
+    padding-top: 2px;
+    text-transform: uppercase;
+}
+.card-body p{
+    font-family: rr;
+    font-size: 13px;
+    line-height: 21px;
+    color: #6c7279;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.icon i{
+    width: 38px;
+    height: 38px;
+    color: #c6cacc;
+    border: 1px solid #e8ecee;
+    font-size: 16px;
+    line-height: 38px;
+    margin-right: 10px;
+}
+
+/*feedback part*/
+
+#feedback{
+    margin: 101px 0;
+    background: #53354a;
+}
+
+.feed-item{
+    padding-left: 85px;
+}
+
+
+.feed-item h3{
+    padding-top: 35px;
+    font-family: cardo;
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+    width: 420px;
+}
+
+.feed-item h4{
+    font-family: rab;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 30px; 
+    text-transform: uppercase;
+}
+
+/*download part*/
+#download{
+    padding-bottom: 100px;
+}
+.down-item h3{
+    font-family: rl;
+    font-weight: 300;
+    font-size: 28px;
+    color: #2d3033;
+    padding-bottom: 10px;
+}
+.down-item h4{
+    font-family: rab;
+    font-weight: 700;
+    font-size: 13px;
+    color: #2d3033;
+    padding-bottom: 48px;
+    text-transform: uppercase;
+}
+.down-item a{
+    font-family: ras;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    padding: 18px 83px;
+    border-radius: 3px;
+    background: #e84545;
+    text-transform: uppercase;
+}
+/*about us*/
+#about-us{
+    padding-top: 70px;
+    padding-bottom: 88px;
+    background: #3a3e64;
+}
+
+.location h4{
+    font-family: rab;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.location p{
+    font-family: rr;
+    font-size: 14px;
+    color: #afb0bc;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.ni i{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin:  0 5px;
+}
+
+.wp p{
+    width: 100%;
+}
+/*footer part*/
+#footer{
+    background: #313454;
+    padding: 29px 0;
+}
+.f-text p{
+    font-family: rr;
+    font-size: 14px;
+    color: #6a6a72;
+    line-height: 22.5px;
+}
+.f-text i{
+    color:red;
+}
+.f-text span{
+    font-family: or;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

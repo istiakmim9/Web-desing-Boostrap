@@ -1,0 +1,118 @@
+@media(max-width: 575px){
+    
+.navbar-light .navbar-toggler {
+    border-color: rgba(6, 6, 6, 0);
+}
+    
+.navbar-toggler:not(:disabled):not(.disabled) {
+	color: #fff;
+    font-size: 24px;
+}    
+    
+ .navbar-nav{
+	background: #09052f;
+     text-align: center;
+}   
+    
+#banner {
+	padding-top: 166px;
+	padding-bottom: 108px;
+
+}    
+.banner-item h2 {
+	font-size: 28px;
+	line-height: 36px;
+}    
+    
+.banner-item h3 {
+	font-size: 13px;
+	padding: 0 18px;
+}   
+.banner-item h2::after {
+	left: 50%;
+	transform: translateX(-50%);
+}
+    
+.banner-item h3 {
+	padding: 18px 18px;
+}    
+    
+.banner-item h3 {
+	padding-top: 2px;
+}    
+    
+#banner .slick-dots {
+	bottom: -101px;
+}    
+    
+#story .img-fluid {
+	max-width: 60%;
+    padding-bottom: 55px;
+} 
+#video {
+	padding: 96px 0;
+}    
+    
+.heading h3 {
+	padding-bottom: 24px;
+}    
+.heading p {
+    padding: 0 23px;
+	padding-bottom: 18px;
+	
+}    
+    
+ .ex-item {
+	padding-top: 45px;
+}   
+.ex-item p {
+	padding: 0 26px;
+    padding-top:6px;
+    line-height: 22px;
+}
+    
+#expertise {
+	padding-bottom: 78px;
+}    
+    
+.team-head p {
+	padding-top: 14px;
+} 
+    
+#team {
+	padding-top: 60px;
+}    
+    
+#work h2 {
+	padding-bottom: 25px;
+}    
+#filters button {
+	margin-top: 10px;
+}    
+    
+.buttons {
+	padding-bottom: 52px;
+}    
+ .feed-item h4 {
+	padding: 0 4px;
+}   
+    
+#feedback {
+	padding-top: 50px;
+	padding-bottom: 107px;
+}    
+#news h3 {
+	padding-top: 64px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
